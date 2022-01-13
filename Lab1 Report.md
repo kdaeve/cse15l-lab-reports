@@ -3,7 +3,7 @@
 ## <strong>Step 1: Install VS Code</strong><br/>
   To install VS Code, please visit https://code.visualstudio.com/ and select your platform. VS Code support major platforms such as Windows, macOS, and Linux.  
   
-![alt test](https://github.com/TSLAX/CSE15L-Lab/blob/main/images/Snipaste_2022-01-13_02-02-07.png)  
+![Image](https://github.com/TSLAX/CSE15L-Lab/blob/main/images/Snipaste_2022-01-13_02-02-07.png)  
 This page usually will automatically identify your platform, just simply click download Stable Build and install it on your computer as usual.  
   
 
@@ -20,10 +20,10 @@ Before we get started, you need to install OpenSSH to connect your server or oth
   https://sdacs.ucsd.edu/~icc/index.php  
 
   First, open your terminal in VS Code and input a command like this then replace the Mosaic part by the letters with your own account.  
-  ![alt test](https://github.com/TSLAX/CSE15L-Lab/blob/main/images/Snipaste_2022-01-13_02-39-09.png)  
-  ![alt test](https://github.com/TSLAX/CSE15L-Lab/blob/main/images/Snipaste_2022-01-13_02-42-39.png)  
+  ![Image](https://github.com/TSLAX/CSE15L-Lab/blob/main/images/Snipaste_2022-01-13_02-39-09.png)  
+  ![Image](https://github.com/TSLAX/CSE15L-Lab/blob/main/images/Snipaste_2022-01-13_02-42-39.png)  
   Input your password and logged in you will see something like this:  
-  ![alt test](https://github.com/TSLAX/CSE15L-Lab/blob/main/images/Snipaste_2022-01-13_03-06-18.png)  
+  ![Image](https://github.com/TSLAX/CSE15L-Lab/blob/main/images/Snipaste_2022-01-13_03-06-18.png)  
   Now, you have successfully connected to your remote server.  
     
 ## <strong>Step 3: Trying Some Commands</strong><br/>  
