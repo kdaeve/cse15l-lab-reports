@@ -23,7 +23,14 @@ Before we get started, you need to install OpenSSH to connect your server or oth
   ![alt test](https://github.com/TSLAX/CSE15L-Lab/blob/main/images/Snipaste_2022-01-13_02-39-09.png)  
   ![alt test](https://github.com/TSLAX/CSE15L-Lab/blob/main/images/Snipaste_2022-01-13_02-42-39.png)  
   Input your password and logged in you will see something like this:  
-  ![alt test](https://github.com/TSLAX/CSE15L-Lab/blob/main/images/Snipaste_2022-01-13_02-53-44.png)  
+  ![alt test](https://github.com/TSLAX/CSE15L-Lab/blob/main/images/Snipaste_2022-01-13_03-06-18.png)  
   Now, you have successfully connected to your remote server.  
     
 ## <strong>Step 3: Trying Some Commands</strong><br/>  
+Let's try to run some useful commands.  
+<strong>ls</strong>: Lists all files and directories in the present working directory  
+![alt test]()
+<strong>ls - a</strong>: Lists hidden files as well  
+![alt test]()
+<strong>ls -lat</strong>: List files or directories in a table format with extra information including hidden files or directories:  
+![alt test]()
