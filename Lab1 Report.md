@@ -30,7 +30,11 @@ Before we get started, you need to install OpenSSH to connect your server or oth
 Let's try to run some useful commands.  
 <strong>ls</strong>: Lists all files and directories in the present working directory  
 ![alt test](https://github.com/TSLAX/CSE15L-Lab/blob/main/images/ls.png)  
+  
 <strong>ls - a</strong>: Lists hidden files as well  
-![alt test](https://github.com/TSLAX/CSE15L-Lab/blob/main/images/ls-a.png)
+![alt test](https://github.com/TSLAX/CSE15L-Lab/blob/main/images/ls-a.png)  
+  
+
 <strong>ls -lat</strong>: List files or directories in a table format with extra information including hidden files or directories:  
-![alt test](https://github.com/TSLAX/CSE15L-Lab/blob/main/images/ls-lat.png)
+![alt test](https://github.com/TSLAX/CSE15L-Lab/blob/main/images/ls-lat.png)  
+
