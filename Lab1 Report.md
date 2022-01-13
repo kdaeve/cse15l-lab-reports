@@ -11,13 +11,13 @@ This page usually will automatically identify your platform, just simply click d
 University provides specific course accounts for students. For this step, we'll use a command which calls <strong>ssh</strong>  
 
 For Windows:  
-Before we get started, you need to install OpenSSH to connect your server or other computers. To install OpenSSH, please visit Microsoft Documentation website https://docs.microsoft.com/en-us/windows-server/administration/openssh/openssh_install_firstuse and following this instruction to install it.  
+Before we get started, you need to install OpenSSH to connect your server or other computers. To install OpenSSH, please visit [Microsoft Documentation website](https://docs.microsoft.com/en-us/windows-server/administration/openssh/openssh_install_firstuse) and following this instruction to install it.  
   
   For macOS/Linux:  
   Since these operate system is Unix based operating systems, they have ssh integration built in, so you don't need to do any extra steps.  
   
   Check your own course-specific account for CSE15L：  
-  https://sdacs.ucsd.edu/~icc/index.php  
+  [Click me to get your account](https://sdacs.ucsd.edu/~icc/index.php)  
 
   First, open your terminal in VS Code and input a command like this then replace the Mosaic part by the letters with your own account.  
   ![Image](https://github.com/TSLAX/CSE15L-Lab/blob/main/images/Snipaste_2022-01-13_02-39-09.png)  
@@ -37,4 +37,11 @@ Let's try to run some useful commands.
 
 <strong>ls -lat</strong>: List files or directories in a table format with extra information including hidden files or directories:  
 ![alt test](https://github.com/TSLAX/CSE15L-Lab/blob/main/images/ls-lat.png)  
+## <strong>Step 4: Moving Files with scp</strong><br/>  
+Alright, since we're able to remote connect the server. Now. it's a good time to learn how to copy files to the server with scp.  
+Step 1: Change the directory to the file location on the terminal that you want to copy to the server.  
 
+cd /your/file/directory  
+Step 2: Use the follow command to copy your file to the server.  
+scp WhereAmI.java cs15lwi22zz@ieng6.ucsd.edu:~/  
+Then, you'll be required to prompted password as usual.
