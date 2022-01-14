@@ -77,3 +77,4 @@ If you already have Hello.java on your server, this command will overwrite the c
 
 *ssh cs15lwi22@ieng6.ucsd.edu "ls"*  
 This command means after connected your server, it will run <strong>*ls*</strong> immediately.  
+![Image](https://github.com/TSLAX/cse15l-lab-reports/blob/main/images/ssh-ls.png)
