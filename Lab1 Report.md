@@ -4,7 +4,12 @@
   To install VS Code, please visit https://code.visualstudio.com/ and select your platform. VS Code support major platforms such as Windows, macOS, and Linux.  
   
 ![Image](https://github.com/TSLAX/CSE15L-Lab/blob/main/images/Snipaste_2022-01-13_02-02-07.png)  
+
 This page usually will automatically identify your platform, just simply click download Stable Build and install it on your computer as usual.  
+
+After installing VS Code, launching it you'll see something like this:  
+![Image](https://github.com/TSLAX/cse15l-lab-reports/blob/main/images/vscode.png)  
+
   
 
 ## <strong>Step 2: Remotely Connecting</strong><br/>
