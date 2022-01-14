@@ -76,8 +76,9 @@ Using ssh connect your server and enter the following command:
   Logout the server and back on client enter following command:  
 
   *scp /Users/yourusername/.ssh/id_rsa.pub cs15lwi22@ieng6.ucsd.edu:~/.ssh/authorized_keys*  
-  
+
   Now, you should be able to log in to your server without a password!  
+  
   ![Image](https://github.com/TSLAX/cse15l-lab-reports/blob/main/images/key.png)  
 
 ## <strong>Step 6: Optimizing Remote Running</strong><br/>  
