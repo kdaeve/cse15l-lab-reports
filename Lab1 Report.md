@@ -58,6 +58,7 @@ Step 1: Change the directory to the file location on the terminal that you want 
 Step 2: Use the following command to copy your file to the server.  
 
 *scp WhereAmI.java cs15lwi22zz@ieng6.ucsd.edu:~/*  
+
 Then, you'll be required to the prompted password as usual.  
 ![Image](https://github.com/TSLAX/cse15l-lab-reports/blob/main/images/remote.png)  
 After entering your password, you will successfully move your files to the server.  
