@@ -1,7 +1,7 @@
 # CSE Lab1 Report
 
 ## <strong>Step 1: Install VS Code</strong><br/>
-  To install VS Code, please visit https://code.visualstudio.com/ and select your platform. VS Code support major platforms such as Windows, macOS, and Linux.  
+  To install VS Code, please visit https://code.visualstudio.com/ and select your platform. VS Code supports major platforms such as Windows, macOS, and Linux.  
   
 ![Image](https://github.com/TSLAX/CSE15L-Lab/blob/main/images/Snipaste_2022-01-13_02-02-07.png)  
 
@@ -16,19 +16,22 @@ After installing VS Code, launching it you'll see something like this:
 University provides specific course accounts for students. For this step, we'll use a command which calls <strong>ssh</strong>  
 
 For Windows:  
-Before we get started, you need to install OpenSSH to connect your server or other computers. To install OpenSSH, please visit [Microsoft Documentation website](https://docs.microsoft.com/en-us/windows-server/administration/openssh/openssh_install_firstuse) and following this instruction to install it.  
+Before we get started, you need to install OpenSSH to connect your server or other computers. To install OpenSSH, please visit [Microsoft Documentation website](https://docs.microsoft.com/en-us/windows-server/administration/openssh/openssh_install_firstuse) and follow this instruction to install it.  
   
   For macOS/Linux:  
-  Since these operate system is Unix based operating systems, they have ssh integration built in, so you don't need to do any extra steps.  
+  Since macOS and Linux are Unix-based operating systems, they have ssh integration built-in, so you don't need to do any extra steps. 
   
   Check your own course-specific account for CSE15L：  
   [Click me to get your account](https://sdacs.ucsd.edu/~icc/index.php)  
 
-  First, open your terminal in VS Code and input a command like this then replace the Mosaic part by the letters with your own account.  
+  First, open your terminal in VS Code and input command like this.  
+  Replacing the Mosaic part with the letters with your account.   
   ![Image](https://github.com/TSLAX/CSE15L-Lab/blob/main/images/Snipaste_2022-01-13_02-39-09.png)  
   ![Image](https://github.com/TSLAX/CSE15L-Lab/blob/main/images/Snipaste_2022-01-13_02-42-39.png)  
-  Enter your password and logged in you will see something like this:  
+
+  Enter your password and login you will see something like this:  
   ![Image](https://github.com/TSLAX/CSE15L-Lab/blob/main/images/Snipaste_2022-01-13_03-06-18.png)  
+
   Now, you have successfully connected to your remote server.  
     
 ## <strong>Step 3: Trying Some Commands</strong><br/>  
@@ -50,36 +53,38 @@ Step 1: Change the directory to the file location on the terminal that you want 
 
 *cd /your/file/directory*  
 
-Step 2: Use the follow command to copy your file to the server.  
+Step 2: Use the following command to copy your file to the server.  
 *scp WhereAmI.java cs15lwi22zz@ieng6.ucsd.edu:~/*  
-Then, you'll be required to prompted password as usual.  
+Then, you'll be required to the prompted password as usual.  
 ![Image](https://github.com/TSLAX/cse15l-lab-reports/blob/main/images/remote.png)  
 After entering your password, you will successfully move your files to the server.  
 ## <strong>Step 5: Setting an SSH Key</strong><br/>  
 Every time we log in to our server we need to enter a password, which is usually very tedious and some passwords are very cumbersome to set. So, is there a way to log in to the server on your PC without entering a password every time? Let me introduce the SSH Key feature.  
 
 Step 1 (On your computer/client):  
-Enter the following code:  
+Enter the following command:  
 *ssh-keygen*  
 You will then see the following screen:  
 ![Image](https://github.com/TSLAX/cse15l-lab-reports/blob/main/images/ssh-key.png)  
 
 Step 2 (On the server):  
-Using ssh connect your server and enter the following code:  
+Using ssh connect your server and enter the following command:  
 *mkdir .ssh*  
   
   Logout the server and back on client enter following code:  
   *scp /Users/yourusername/.ssh/id_rsa.pub cs15lwi22@ieng6.ucsd.edu:~/.ssh/authorized_keys*  
-  Now, you should be able log in your server without password!  
+  Now, you should be able to log in to your server without a password!  
   ![Image](https://github.com/TSLAX/cse15l-lab-reports/blob/main/images/key.png)  
 
 ## <strong>Step 6: Optimizing Remote Running</strong><br/>  
 Congratulations, you have completed most of the steps. Now let's learn how to optimize remote running.  
-Here is some fun commands you can try:  
+Here are some fun commands you can try:  
 
 *scp Hello.java cs15lwi22zz@ieng6.ucsd.edu:~/*  
 If you already have Hello.java on your server, this command will overwrite the contents of Hello.java on in the remote home directory.  
 
 *ssh cs15lwi22@ieng6.ucsd.edu "ls"*  
 This command means after connected your server, it will run <strong>*ls*</strong> immediately.  
-![Image](https://github.com/TSLAX/cse15l-lab-reports/blob/main/images/ssh-ls.png)
+![Image](https://github.com/TSLAX/cse15l-lab-reports/blob/main/images/ssh-ls.png)  
+
+Now, you have completed all the steps. Enjoy!
