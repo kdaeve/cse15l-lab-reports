@@ -29,8 +29,9 @@ Before we get started, you need to install OpenSSH to connect your server or oth
   ![Image](https://github.com/TSLAX/CSE15L-Lab/blob/main/images/Snipaste_2022-01-13_02-39-09.png)  
   ![Image](https://github.com/TSLAX/CSE15L-Lab/blob/main/images/Snipaste_2022-01-13_02-42-39.png)  
     
-    
+
   Enter your password and login you will see something like this:  
+    
   ![Image](https://github.com/TSLAX/CSE15L-Lab/blob/main/images/Snipaste_2022-01-13_03-06-18.png)  
 
   Now, you have successfully connected to your remote server.  
