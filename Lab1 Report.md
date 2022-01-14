@@ -44,4 +44,5 @@ Step 1: Change the directory to the file location on the terminal that you want 
 cd /your/file/directory  
 Step 2: Use the follow command to copy your file to the server.  
 scp WhereAmI.java cs15lwi22zz@ieng6.ucsd.edu:~/  
-Then, you'll be required to prompted password as usual.
+Then, you'll be required to prompted password as usual.  
+![Image]()
