@@ -49,6 +49,16 @@ Then, you'll be required to prompted password as usual.
 After entering your password, you will successfully move your files to the server.  
 ## <strong>Step 5: Setting an SSH Key</strong><br/>  
 Every time we log in to our server we need to enter a password, which is usually very tedious and some passwords are very cumbersome to set. So, is there a way to log in to the server on your PC without entering a password every time? Let me introduce the SSH Key feature.  
-Step 1(On your computer/client): enter the following code  
+Step 1 (On your computer/client):  
+Enter the following code:  
 ssh-keygen  
 You will then see the following screen:  
+![Image](https://github.com/TSLAX/cse15l-lab-reports/blob/main/images/ssh-key.png)  
+Step 2 (On the server):  
+Using ssh connect your server and enter the following code:  
+mkdir .ssh  
+  
+  Logout the server and back on client enter following code:  
+  scp /Users/yourusername/.ssh/id_rsa.pub cs15lwi22@ieng6.ucsd.edu:~/.ssh/authorized_keys  
+  Now, you should be able log in your server without password!  
+  
