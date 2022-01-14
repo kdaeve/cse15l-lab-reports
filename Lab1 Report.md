@@ -45,4 +45,10 @@ cd /your/file/directory
 Step 2: Use the follow command to copy your file to the server.  
 scp WhereAmI.java cs15lwi22zz@ieng6.ucsd.edu:~/  
 Then, you'll be required to prompted password as usual.  
-![Image]()
+![Image](https://github.com/TSLAX/cse15l-lab-reports/blob/main/images/remote.png)  
+After entering your password, you will successfully move your files to the server.  
+## <strong>Step 5: Setting an SSH Key</strong><br/>  
+Every time we log in to our server we need to enter a password, which is usually very tedious and some passwords are very cumbersome to set. So, is there a way to log in to the server on your PC without entering a password every time? Let me introduce the SSH Key feature.  
+Step 1(On your computer/client): enter the following code  
+ssh-keygen  
+You will then see the following screen:  
