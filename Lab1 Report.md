@@ -72,6 +72,7 @@ You will then see the following screen:
 
 Step 2 (On the server):  
 Using ssh connect your server and enter the following command:  
+
 *mkdir .ssh*  
   
   Logout the server and back on client enter following command:  
