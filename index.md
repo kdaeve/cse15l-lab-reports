@@ -3,7 +3,7 @@
 ## <strong>Step 1: Install VS Code</strong><br/>
   To install VS Code, please visit https://code.visualstudio.com/ and select your platform. VS Code supports major platforms such as Windows, macOS, and Linux.  
   
-![Image](https://github.com/kdaeve/CSE15L-Lab/blob/main/images/Snipaste_2022-01-13_02-02-07.png)  
+![Image](https://github.com/kdaeve/cse15l-lab-reports/blob/main/images/Snipaste_2022-01-13_02-02-07.png)  
 
 This page usually will automatically identify your platform, just simply click download Stable Build and install it on your computer as usual.  
 
@@ -26,13 +26,13 @@ Before we get started, you need to install OpenSSH to connect your server or oth
 
   First, open your terminal in VS Code and input command like this.  
   Replacing the Mosaic part with the letters with your account.   
-  ![Image](https://github.com/kdaeve/CSE15L-Lab/blob/main/images/Snipaste_2022-01-13_02-39-09.png)  
-  ![Image](https://github.com/kdaeve/CSE15L-Lab/blob/main/images/Snipaste_2022-01-13_02-42-39.png)  
+  ![Image](https://github.com/kdaeve/cse15l-lab-reports/blob/main/images/Snipaste_2022-01-13_02-39-09.png)  
+  ![Image](https://github.com/kdaeve/cse15l-lab-reports/blob/main/images/Snipaste_2022-01-13_02-42-39.png)  
     
 
   Enter your password and login you will see something like this:  
     
-  ![Image](https://github.com/kdaeve/CSE15L-Lab/blob/main/images/Snipaste_2022-01-13_03-06-18.png)  
+  ![Image](https://github.com/kdaeve/cse15l-lab-reports/blob/main/images/Snipaste_2022-01-13_03-06-18.png)  
 
   Now, you have successfully connected to your remote server.  
     
@@ -40,14 +40,14 @@ Before we get started, you need to install OpenSSH to connect your server or oth
 Let's try to run some useful commands.  
 
 <strong>*ls*</strong>: Lists all files and directories in the present working directory  
-![alt test](https://github.com/kdaeve/CSE15L-Lab/blob/main/images/ls.png)  
+![alt test](https://github.com/kdaeve/cse15l-lab-reports/blob/main/images/ls.png)  
   
 <strong>*ls - a*</strong>: Lists hidden files as well  
-![alt test](https://github.com/kdaeve/CSE15L-Lab/blob/main/images/ls-a.png)  
+![alt test](https://github.com/kdaeve/cse15l-lab-reports/blob/main/images/ls-a.png)  
   
 
 <strong>*ls -lat*</strong>: List files or directories in a table format with extra information including hidden files or directories:  
-![alt test](https://github.com/kdaeve/CSE15L-Lab/blob/main/images/ls-lat.png)  
+![alt test](https://github.com/kdaeve/cse15l-lab-reports/blob/main/images/ls-lat.png)  
 ## <strong>Step 4: Moving Files with scp</strong><br/>  
 Alright, since we're able to remote connect the server. Now. it's a good time to learn how to copy files to the server with scp.  
 
