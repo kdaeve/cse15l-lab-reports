@@ -24,10 +24,12 @@ Before we get started, you need to install OpenSSH to connect your server or oth
   Check your own course-specific account for CSE15L：  
   [Click me to get your account](https://sdacs.ucsd.edu/~icc/index.php)  
 
-  First, open your terminal in VS Code and input command like this.  
-  Replacing the Mosaic part with the letters with your account.   
-  ![Image](images/Snipaste_2022-01-13_02-39-09.png)  
+  First, open your terminal in VS Code.
   ![Image](images/Snipaste_2022-01-13_02-42-39.png)  
+  
+  Then input command like this, and replace the Mosaic part with the letters with your account.   
+  ![Image](images/Snipaste_2022-01-13_02-39-09.png)  
+   
     
 
   Enter your password and login you will see something like this:  
