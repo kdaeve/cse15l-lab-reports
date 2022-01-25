@@ -42,22 +42,22 @@ Let's try to run some useful commands.
 <strong>*ls*</strong>: Lists all files and directories in the present working directory  
 ![alt test](images/ls.png)  
   
-<strong>*ls - a*</strong>: Lists hidden files as well  
+<strong>`ls - a`</strong>: Lists hidden files as well  
 ![alt test](images/ls-a.png)  
   
 
-<strong>*ls -lat*</strong>: List files or directories in a table format with extra information including hidden files or directories:  
+<strong>`ls -lat`</strong>: List files or directories in a table format with extra information including hidden files or directories:  
 ![alt test](images/ls-lat.png)  
 ## <strong>Step 4: Moving Files with scp</strong><br/>  
 Alright, since we're able to remote connect the server. Now. it's a good time to learn how to copy files to the server with scp.  
 
 Step 1: Change the directory to the file location on the terminal that you want to copy to the server.  
 
-*cd /your/file/directory*  
+`cd /your/file/directory`  
 
 Step 2: Use the following command to copy your file to the server.  
 
-*scp WhereAmI.java cs15lwi22zz@ieng6.ucsd.edu:~/*  
+`scp WhereAmI.java cs15lwi22zz@ieng6.ucsd.edu:~/`  
 
 Then, you'll be required to the prompted password as usual.  
 ![Image](images/remote.png)  
@@ -67,18 +67,18 @@ Every time we log in to our server we need to enter a password, which is usually
 
 Step 1 (On your computer/client):  
 Enter the following command:  
-*ssh-keygen*  
+`ssh-keygen`  
 You will then see the following screen:  
 ![Image](images/ssh-key.png)  
 
 Step 2 (On the server):  
 Using ssh connect your server and enter the following command:  
 
-*mkdir .ssh*  
+`mkdir .ssh`  
   
   Logout the server and back on client enter following command:  
 
-  *scp /Users/yourusername/.ssh/id_rsa.pub cs15lwi22@ieng6.ucsd.edu:~/.ssh/authorized_keys*  
+  `scp /Users/yourusername/.ssh/id_rsa.pub cs15lwi22@ieng6.ucsd.edu:~/.ssh/authorized_keys`  
 
   Now, you should be able to log in to your server without a password!  
   
@@ -88,11 +88,11 @@ Using ssh connect your server and enter the following command:
 Congratulations, you have completed most of the steps. Now let's learn how to optimize remote running.  
 Here are some fun commands you can try:  
 
-*scp Hello.java cs15lwi22zz@ieng6.ucsd.edu:~/*  
+`scp Hello.java cs15lwi22zz@ieng6.ucsd.edu:~/`  
 If you already have Hello.java on your server, this command will overwrite the contents of Hello.java on in the remote home directory.  
 
-*ssh cs15lwi22@ieng6.ucsd.edu "ls"*  
-This command means after connected your server, it will run <strong>*ls*</strong> immediately.  
+`ssh cs15lwi22@ieng6.ucsd.edu "ls"`  
+This command means after connected your server, it will run <strong>`ls`</strong> immediately.  
 ![Image](images/ssh-ls.png)  
 
 Now, you have completed all the steps. Enjoy!
