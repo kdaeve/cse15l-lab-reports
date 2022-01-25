@@ -13,7 +13,7 @@ After installing VS Code, launching it you'll see something like this:
   
 
 ## <strong>Step 2: Remotely Connecting</strong><br/>
-University provides specific course accounts for students. For this step, we'll use a command which calls <strong>ssh</strong>  
+University provides specific course accounts for students. For this step, we'll use a command which calls <strong>`ssh`</strong>  
 
 For Windows:  
 Before we get started, you need to install OpenSSH to connect your server or other computers. To install OpenSSH, please visit [Microsoft Documentation website](https://docs.microsoft.com/en-us/windows-server/administration/openssh/openssh_install_firstuse) and follow this instruction to install it.  
