@@ -25,10 +25,10 @@ Before we get started, you need to install OpenSSH to connect your server or oth
   [Click me to get your account](https://sdacs.ucsd.edu/~icc/index.php)  
 
   First, open your terminal in VS Code.
-  ![Image](images/Snipaste_2022-01-13_02-42-39.png)  
-  
+  ![Image](images/Snipaste_2022-01-13_02-39-09.png)   
+
   Then input command like this, and replace the Mosaic part with the letters with your account.   
-  ![Image](images/Snipaste_2022-01-13_02-39-09.png)  
+  ![Image](images/Snipaste_2022-01-13_02-42-39.png)  
    
     
 
