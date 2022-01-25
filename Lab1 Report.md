@@ -97,7 +97,26 @@ If you already have Hello.java on your server, this command will overwrite the c
 This command means after connected your server, it will run <strong>`ls`</strong> immediately.  
 ![Image](images/ssh-ls.png)  
 
-So, here is another useful tips you should to know.  
-Usually when we want to run something remotely 
+So, here is another useful tip you should know.   
+
+Right now, I want to upload a java file(HelloWorld.java) from my client to the server and run it remotely.  
+Usually when we want to run something remotely, we need to do these step:  
+`scp HelloWorld.java cs15lwi22@ieng6.ucsd.edu:~/`       (ENTER)   
+`Password:`                                             (ENTER)  
+`ssh cs15lwi22@ieng6.ucsd.edu`                          (ENTER)  
+`Password:`                                             (ENTER)  
+`javac HelloWorld.java`                                 (ENTER)  
+`java HelloWorld.java`                                  (ENTER)  
+
+![Image](images/remotelyrunning1.png)  
+
+This is exactly the correct way for remotely running. However, you need to keystroke up to 6 times.  As a programmer, this is extremely tedious. So, do we have a better way to do remotely running?  
+Of course, we do! 
+
+`ssh cs15lwi22@ieng6.ucsd.edu "javac HelloWorld.java; java HelloWorld"`   (ENTER)  
+`Password:`                                             (ENTER) 
+![Image](images/remotelyrunning2.png)  
+
+In fact, we only need one line of code to implement the remote run, even if it includes entering the password we only need to do two keystrokes. This greatly increases our efficiency!  
 
 Now, you have completed all the steps. Enjoy!
