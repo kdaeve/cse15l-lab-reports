@@ -39,7 +39,7 @@ Before we get started, you need to install OpenSSH to connect your server or oth
 ## <strong>Step 3: Trying Some Commands</strong><br/>  
 Let's try to run some useful commands.  
 
-<strong>*ls*</strong>: Lists all files and directories in the present working directory  
+<strong>`ls`</strong>: Lists all files and directories in the present working directory  
 ![alt test](images/ls.png)  
   
 <strong>`ls - a`</strong>: Lists hidden files as well  
