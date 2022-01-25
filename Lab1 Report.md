@@ -97,4 +97,7 @@ If you already have Hello.java on your server, this command will overwrite the c
 This command means after connected your server, it will run <strong>`ls`</strong> immediately.  
 ![Image](images/ssh-ls.png)  
 
+So, here is another useful tips you should to know.  
+Usually when we want to run something remotely 
+
 Now, you have completed all the steps. Enjoy!
