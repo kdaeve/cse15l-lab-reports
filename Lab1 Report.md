@@ -96,8 +96,7 @@ If you already have Hello.java on your server, this command will overwrite the c
 `ssh cs15lwi22@ieng6.ucsd.edu "ls"`  
 This command means after connected your server, it will run <strong>`ls`</strong> immediately.  
 ![Image](images/ssh-ls.png)  
-
-So, here is another useful tip you should know.   
+ 
 
 Right now, I want to upload a java file(HelloWorld.java) from my client to the server and run it remotely.  
 Usually when we want to run something remotely, we need to do these step:  
