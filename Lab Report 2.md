@@ -1,6 +1,6 @@
 # CSE Lab2 Report
 
-## <strong>First code change</strong><br/>  
+## <strong>#1 Code Change</strong><br/>  
 ![Image](images/codechanges1.png)  
 This is the link for the failure-inducing input [test-file4.md](https://github.com/kdaeve/CSE15L-RoseateSpoonbill/blob/main/test-file4.md).  
 
@@ -30,7 +30,7 @@ Tests run: 10,  Failures: 1
 As we noticed in code change, after we running main and Junit test for test-file4.md we failed the test. The image added to our list of links incorrectly. Actually, this bug was causing by our code and we didn't check for a "!" before the bracket, which indicates that the code was inserted an image. Futhermore, this bug leading we failed the JUnit test since the syntax between an image and a link is differentiated by a ! before the opening bracket, and because this was not originally addressed, the image was treated like a link and added to our list.
 
 
-## <strong>Second code change</strong><br/>  
+## <strong>#2 Code Change</strong><br/>  
  
 ![Image](images/firstcodediff.png)  
 
@@ -60,7 +60,7 @@ Tests run: 10,  Failures: 1
 **Description:** <br /> 
 The symptom of this bug is that [page.com] is incorrectly added to the list of links. In test-file6.md, there is the word "paragraph" between the bracket group and the parenthesis group, which means that it should not be classified as a link. The bug in our program is that we did not consider the syntactic structure of the links, because the character after the right parenthesis must be a open parenthesis. 
 
-## <strong>Third code change</strong><br/>  
+## <strong>#3 Code Change</strong><br/>  
 ![Image](images/secondcodedff.png) 
 
 This is the link for the failure-inducing input [test-file6.md](https://github.com/kdaeve/CSE15L-RoseateSpoonbill/blob/main/test-file6.md)  
