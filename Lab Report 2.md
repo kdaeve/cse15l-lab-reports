@@ -23,7 +23,7 @@ java.lang.AssertionError: expected:<[https://something.com]> but was:<[43245.jpg
         at MarkdownParseTest.parseTest4(MarkdownParseTest.java:34)
 
 FAILURES!!!
-Tests run: 3,  Failures: 1
+Tests run: 10,  Failures: 1
 ```  
 
 **Description:** <br /> 
