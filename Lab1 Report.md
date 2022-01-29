@@ -55,11 +55,15 @@ Alright, since we're able to remote connect the server. Now. it's a good time to
 
 Step 1: Change the directory to the file location on the terminal that you want to copy to the server.  
 
-`cd /your/file/directory`  
+```
+cd /your/file/directory 
+``` 
 
 Step 2: Use the following command to copy your file to the server.  
 
-`scp WhereAmI.java cs15lwi22zz@ieng6.ucsd.edu:~/`  
+```
+scp WhereAmI.java cs15lwi22zz@ieng6.ucsd.edu:~/
+```  
 
 Then, you'll be required to the prompted password as usual.  
 ![Image](images/remote.png)  
@@ -69,18 +73,24 @@ Every time we log in to our server we need to enter a password, which is usually
 
 Step 1 (On your computer/client):  
 Enter the following command:  
-`ssh-keygen`  
+```
+ssh-keygen
+```  
 You will then see the following screen:  
 ![Image](images/ssh-key.png)  
 
 Step 2 (On the server):  
 Using ssh connect your server and enter the following command:  
 
-`mkdir .ssh`  
+```
+mkdir .ssh
+```  
   
-  Logout the server and back on client enter following command:  
+Logout the server and back on client enter following command:  
 
-  `scp /Users/yourusername/.ssh/id_rsa.pub cs15lwi22@ieng6.ucsd.edu:~/.ssh/authorized_keys`  
+```
+scp /Users/yourusername/.ssh/id_rsa.pub cs15lwi22@ieng6.ucsd.edu:~/.ssh/authorized_keys
+```  
 
   Now, you should be able to log in to your server without a password!  
   
@@ -90,30 +100,38 @@ Using ssh connect your server and enter the following command:
 Congratulations, you have completed most of the steps. Now let's learn how to optimize remote running.  
 Here are some fun commands you can try:  
 
-`scp Hello.java cs15lwi22zz@ieng6.ucsd.edu:~/`  
+```
+scp Hello.java cs15lwi22zz@ieng6.ucsd.edu:~/  
+```
 If you already have Hello.java on your server, this command will overwrite the contents of Hello.java on in the remote home directory.  
 
-`ssh cs15lwi22@ieng6.ucsd.edu "ls"`  
+```
+ssh cs15lwi22@ieng6.ucsd.edu "ls"
+```  
 This command means after connected your server, it will run <strong>`ls`</strong> immediately.  
 ![Image](images/ssh-ls.png)  
  
 
 Right now, I want to upload a java file(HelloWorld.java) from my client to the server and run it remotely.  
 Usually when we want to run something remotely, we need to do these step:  
-`scp HelloWorld.java cs15lwi22@ieng6.ucsd.edu:~/`       (ENTER)   
-`Password:`                                             (ENTER)  
-`ssh cs15lwi22@ieng6.ucsd.edu`                          (ENTER)  
-`Password:`                                             (ENTER)  
-`javac HelloWorld.java`                                 (ENTER)  
-`java HelloWorld.java`                                  (ENTER)  
+```
+scp HelloWorld.java cs15lwi22@ieng6.ucsd.edu:~/       (ENTER)   
+Password:                                             (ENTER)  
+ssh cs15lwi22@ieng6.ucsd.edu                          (ENTER)  
+Password:                                             (ENTER)  
+javac HelloWorld.java                                 (ENTER)  
+java HelloWorld.java`                                 (ENTER)  
+```
 
 ![Image](images/remotelyrunning1.png)  
 
 This is exactly the correct way for remotely running. However, you need to keystroke up to 6 times.  As a programmer, this is extremely tedious. So, do we have a better way to do remotely running?  
 Of course, we do! 
 
-`ssh cs15lwi22@ieng6.ucsd.edu "javac HelloWorld.java; java HelloWorld"`   (ENTER)  
-`Password:`                                             (ENTER) 
+```
+ssh cs15lwi22@ieng6.ucsd.edu "javac HelloWorld.java; java HelloWorld"   (ENTER)  
+Password:                                                               (ENTER) 
+```
 ![Image](images/remotelyrunning2.png)  
 
 In fact, we only need one line of code to implement the remote run, even if it includes entering the password we only need to do two keystrokes. This greatly increases our efficiency!  
