@@ -5,4 +5,6 @@ For Lab Report:
  
 [Lab-Report 1](https://github.com/kdaeve/cse15l-lab-reports/blob/main/Lab1%20Report.md)  
 
-[Lab-Report 2](https://github.com/kdaeve/cse15l-lab-reports/blob/main/Lab%20Report%202.md)
+[Lab-Report 2](https://github.com/kdaeve/cse15l-lab-reports/blob/main/Lab%20Report%202.md)  
+
+[Lab-Report 3](https://github.com/kdaeve/cse15l-lab-reports/blob/main/lab-report-3-week-6.md)
