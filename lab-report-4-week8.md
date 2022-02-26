@@ -4,7 +4,7 @@
 [Mine](https://github.com/kdaeve/CSE15L-RoseateSpoonbill)  
 [Other Group's](https://github.com/Shree-G/markdown-parse)  
 
-## MarkdownParseTest Code:
+## MarkdownParseTest Snippet Test Code:
 ```
     @Test
     public void snippet1() throws IOException{
