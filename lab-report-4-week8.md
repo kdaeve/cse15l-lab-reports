@@ -55,7 +55,7 @@
 - Snippet3:[https://ucsd-cse15l-w22.github.io/]
     - More than one new lines consecutively entered in ``[]``.
     - Single new lines before and after link in ``()`` is fine and should be kept as links.
-## Snippet Fail of My Code  
+## Snippet JUnit Fail of My Code  
 Snippet 1 JUnitFail:  
 ![Image](images/lab-report4/s1JunitFail.png)  
 
@@ -65,7 +65,7 @@ Snippet 2 JUnitFail:
 Snippet 3 JUnitFail: 
 ![Image](images/lab-report4/s3JunitFail.png) 
 
-## Snippet Fail of Other Group's Code  
+## Snippet JUnit Fail of Other Group's Code  
 Snippet 1 JUnitFail:  
 ![Image](images/lab-report4/Os1JunitFail.png)  
 
