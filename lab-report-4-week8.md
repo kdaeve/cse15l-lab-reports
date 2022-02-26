@@ -63,3 +63,10 @@ Snippet 2 JUnitFail:
 
 Snippet 3 JUnitFail: 
 ![Image](images/lab-report4/Os3JunitFail.png) 
+
+## Can the program be fixed in <10 lines?  
+### Snippet 1:
+
+### Snippet 2:
+
+### Snippet 3:
