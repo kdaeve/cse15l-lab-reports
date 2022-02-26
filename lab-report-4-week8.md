@@ -43,3 +43,13 @@
 
 ## Expected Results:  
 - Snippet1:[%60google.com, google.com, ucsd.edu]
+
+## Snippet Fail of My Code  
+Snippet 1 JUnitFail:  
+![Image](images/lab-report4/s1JunitFail.png)  
+
+Snippet 2 JUnitFail: 
+![Image](images/lab-report4/s2JunitFail.png) 
+
+Snippet 3 JUnitFail: 
+![Image](images/lab-report4/s3JunitFail.png) 
