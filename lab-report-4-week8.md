@@ -42,8 +42,12 @@
 ```
 
 ## Expected Results:  
-- Snippet1:[%60google.com, google.com, ucsd.edu]
+- Snippet1:[%60google.com, google.com, ucsd.edu]  
+    - ✅ Complete code block inside ``[]``
+    - %60 is the url-encoding for `` ` ``  
+    - ⚠️
 
+- Snippet2:[a.com, a.com(()), example.com] 
 ## Snippet Fail of My Code  
 Snippet 1 JUnitFail:  
 ![Image](images/lab-report4/s1JunitFail.png)  
