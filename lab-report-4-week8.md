@@ -53,3 +53,13 @@ Snippet 2 JUnitFail:
 
 Snippet 3 JUnitFail: 
 ![Image](images/lab-report4/s3JunitFail.png) 
+
+## Snippet Fail of Other Group's Code  
+Snippet 1 JUnitFail:  
+![Image](images/lab-report4/Os1JunitFail.png)  
+
+Snippet 2 JUnitFail: 
+![Image](images/lab-report4/Os2JunitFail.png) 
+
+Snippet 3 JUnitFail: 
+![Image](images/lab-report4/Os3JunitFail.png) 
