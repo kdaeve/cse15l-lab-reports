@@ -11,5 +11,5 @@ For Lab Report:
 
 [Lab-Report 4](https://github.com/kdaeve/cse15l-lab-reports/blob/main/lab-report-4-week-8.md)
 
-[Lab-Report 5](https://github.com/kdaeve/cse15l-lab-reports/blob/main/Lab-Report-5%E2%80%93Week-10.md
+[Lab-Report 5](https://github.com/kdaeve/cse15l-lab-reports/blob/main/Lab-Report-5%E2%80%93Week-10.md)
 
