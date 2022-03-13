@@ -12,7 +12,7 @@ On 194.md, the contents shows below:
 ``[Foo*bar\]]:my_(url) 'title (with parens)' ``  
 
 Running with command `diff`, and compare our group with markdown that shows:  
-![Image](images/diff1.png)  
+![Image](images/lab-report5/diff1.png)  
 
 Basically, our group version in this test file has the correct output. However, this common mark version finds a link incorrectly. Meanwhile, we are expected the correct output should be an empty array since the code should confirm the next character right after `]` is `(`.So, a valid link cannot have other characters between the closing and opening parentheses. Therefore, to fix this bug we need to include another `if` statement that tests for `nextCloseBracket == openParen - 1`.  
 
@@ -23,7 +23,7 @@ On 194.md, the contents shows below:
 ``[not a `link](/foo`) ``  
 
 Running with command `diff`, and compare our group with markdown that shows:  
-![Image](images/diff2.png)  
+![Image](images//lab-report5/diff2.png)  
 Basically, our group version in this test file has the correct implementation. However, the common mark implementation is incorrect since it ignored the backticks that indicate a code block and included as regular text. A bug in the common mark that I found is it does not omit the text found in code blocks. So, to fix this bug we should have another `if` statement that will check for matching sets of backticks and skip the contents inside when searching for links. Thus, we can fix it by following code:  
 
 ```
