@@ -46,6 +46,5 @@ public static ArrayList<String> getlinks(String markdown) {
         }
     }
 }
-
 ```
 We excepted the result of .md file is: `[]`.  
